@@ -1,0 +1,318 @@
+@font-face {
+    font-family: 'AgeoTrial-m';
+    src: url(fonts/AgeoTrial-Medium.ttf);
+}
+@font-face {
+    font-family: 'Tungsten-Bold';
+    src: url(fonts/Tungsten-Bold.ttf);
+}
+@font-face {
+    font-family: 'AgeoTrial-xb';
+    src: url(fonts/AgeoTrial-ExtraBold.ttf);
+}
+
+*{
+    margin: 0;
+}
+.main{
+    width: 100%;
+    height: 340vh;
+}
+.header{
+    width: 100%;
+    height: 150px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1{
+    width: 20%;
+    height: 100%;
+    border-bottom-style: solid;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right-style: solid;
+    border-color: gray;
+    border-width: 1px;
+}
+.section1 img{
+    width: 150px;
+    height: 70px;
+}
+#dc{
+    background-color: white;
+}
+#dc a p{
+    color: black;
+    font-family: 'AgeoTrial-m', sans-serif;
+}
+.section2:hover{
+    border-bottom-color: white;
+}
+.section2 a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 a p{
+    color: white;
+    font-family: 'AgeoTrial-m', sans-serif;
+}
+.section3 a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 a p{
+    color: white;
+    font-family: 'AgeoTrial-m', sans-serif;
+}
+.section2{
+    border-bottom-style: solid;
+    height: 100%;
+    width: 15%;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    border-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right-style: solid;
+    border-width: 1px;
+    transition: 0.2s;
+}
+.section3{
+    border-bottom-style: solid;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    border-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 1px;
+}
+.body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+.inner{
+    width: 93%;
+    height: 260vh;
+    color: white;
+}
+.txt{
+    margin-bottom: 3%;
+    font-family: 'AgeoTrial-xb', sans-serif;
+}
+.arts{
+    height: 100%;
+    width: 100%;
+}
+.s1{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;
+}
+.a1{
+    width: 61vh;
+    height: 80vh;
+    background-color: none;
+    border-color: gray;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+a{
+    text-decoration: none;
+}
+.num{
+    margin: 70px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.num h1{
+    text-align: center;
+    color: white;
+    font-family: 'Tungsten-Bold', sans-serif;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1500%;
+}
+.a1:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0px 10px white;
+}
+.a1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    filter: opacity(0);
+    transition: 0.2s;
+    position: relative;
+    bottom: 72.2vh;
+}
+.a1:hover img{
+    filter: opacity(1);
+}
+.s2{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;
+}
+.a2{
+    width: 61vh;
+    height: 80vh;
+    background-color: none;
+    border-color: gray;
+    border-radius: 20px;
+    border-style: solid;
+    overflow: hidden;
+    border-width: 1px;
+    transition: 0.2s;
+}
+.a2:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0px 10px white;
+}
+.a2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    filter: opacity(0);
+    transition: 0.2s;
+    position: relative;
+    bottom: 72vh;
+}
+.a2:hover img{
+    filter: opacity(1);
+}
+.s3{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+.a3{
+    width: 61vh;
+    height: 80vh;
+    background-color: none;
+    border-color: gray;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.a3:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0px 10px white;
+}
+.a3 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    filter: opacity(0);
+    transition: 0.2s;
+    position: relative;
+    bottom: 72vh;
+}
+.a3:hover img{
+    filter: opacity(1);
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav p{
+    font-size: 20px;
+    font-family: 'AgeoTrial-m', sans-serif;
+}
+.nav button{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 25%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    transition: 0.2s;
+}
+.nav .b1{
+    background-color: gray;
+}
+.nav button:hover{
+    background-color: gray;
+}
+.footer{
+    width: 100%;
+    height: 45vh;
+    border-top-style: solid;
+    padding-top: 50px;
+    border-width: 1px;
+    border-color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+.f1{
+    width: 55vh;
+    height: 100%;
+}
+.f1 img{
+    width: 200px;
+    height: 100px;
+    margin: 20px 0;
+}
+.f1 p{
+    font-family: 'AgeoTrial-m', sans-serif;
+}
+.f1 div{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.f1 div a{
+    color: white;
+    font-size: 15px;
+    font-family: 'AgeoTrial-m', sans-serif;
+    padding-bottom: 5px;
+}
+.f1 a:hover{
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: none;
+}
+.f1 h2{
+    font-family: 'AgeoTrial-m', sans-serif; 
+    font-weight: 100;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: gray;
+}
+.f1 h2 p{
+    color: white;
+}
